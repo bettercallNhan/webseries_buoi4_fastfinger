@@ -1,0 +1,134 @@
+.big{
+    text-align: center;
+    
+}
+#Title{
+  
+    font-family: cursive;
+    
+}
+#Typein{
+    
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+html > body {
+    background-color: rgb(184, 114, 125);
+}
+#Nhap>input{
+   width: 25%;
+   height: 25px;
+}
+#Nhap{
+    padding-bottom: 20px;
+}
+#resetBTN {
+    height: 60px;
+    width: 100%;
+    margin-right: 14px;
+   
+}
+#resetBTN > button{
+    width: auto;
+    height: 45%;
+    font-size: large;
+    border: 1px solid black;
+}   
+#resetBTN > button:hover{
+    background-color: brown;
+}
+#resetBTN>button:active{
+    background-color: rgb(26, 127, 26);
+} 
+.timeandpoint{
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+#scrore{
+    font-size: 25px;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    margin-right: 300px;
+}
+#time {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    font-size: larger;
+    font-family:sans-serif;
+}
+#Randomword{
+    font-size: xx-large;
+    height: 50%;
+    width: 7%;
+    margin-left: 46%;
+    padding-bottom: 10px;
+}
+#Randomword:hover{
+    text-transform: uppercase;
+    color: blue;
+    margin-left: 45%
+}
+.keyboard_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 114, 125);
+    width: 100%;
+    margin: 5px;
+}
+.keyboard{
+    background-color:rgb(184, 114, 125);
+    height: 120px;
+    font-size: xx-large;
+}
+.row1 > button{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: blueviolet;
+}
+.row1 > button:hover{
+    text-transform: uppercase;
+    color: blue;
+    background-color: rgb(81, 197, 81);
+}
+.row1 > button:active{
+    background-color: brown;
+}
+.row2 > button{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: blueviolet;
+}
+.row2 > button:hover{
+    text-transform: uppercase;
+    color: blue;
+    background-color: rgb(81, 197, 81);
+}
+.row2 > button:active{
+    background-color: brown;
+}
+
+.row3 > button{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: blueviolet;
+}
+.row3 > button:hover{
+    text-transform: uppercase;
+    color: blue;
+    background-color: rgb(81, 197, 81);
+}
+.row3 > button:active{
+    background-color: brown;
+}
+
+.isClicked {
+    background-color: black !important;
+}
