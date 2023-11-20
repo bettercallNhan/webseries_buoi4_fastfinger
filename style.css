@@ -5,6 +5,7 @@
 #Title{
   
     font-family: cursive;
+    font-style: italic;
     
 }
 #Typein{
@@ -19,6 +20,8 @@ html > body {
 #Nhap>input{
    width: 25%;
    height: 25px;
+   border-radius: 5px;
+   border: none;
 }
 #Nhap{
     padding-bottom: 20px;
@@ -34,6 +37,8 @@ html > body {
     height: 45%;
     font-size: large;
     border: 1px solid black;
+    margin-right: 20px;
+    border-radius: 6px;
 }   
 #resetBTN > button:hover{
     background-color: brown;
@@ -69,8 +74,8 @@ html > body {
 }
 #Randomword:hover{
     text-transform: uppercase;
+    font-weight: 500;
     color: blue;
-    margin-left: 45%
 }
 .keyboard_container{
     display: flex;
@@ -90,6 +95,8 @@ html > body {
     height: 30px;
     font-size: 20px;
     background-color: blueviolet;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
 }
 .row1 > button:hover{
     text-transform: uppercase;
@@ -104,6 +111,10 @@ html > body {
     height: 30px;
     font-size: 20px;
     background-color: blueviolet;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+
+
 }
 .row2 > button:hover{
     text-transform: uppercase;
@@ -119,6 +130,8 @@ html > body {
     height: 30px;
     font-size: 20px;
     background-color: blueviolet;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
 }
 .row3 > button:hover{
     text-transform: uppercase;

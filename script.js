@@ -1,5 +1,5 @@
 let words = ['savage','boomin','future','lamar','bobby','keems','gunna','choppa','kayne','rocky','joseph','jonathan',
-            'bearer','ashen','chosen','cinder','manus','doodoo','gwynevere'];
+            'bearer','ashen','chosen','cinder','manus','doodoo','gwynevere','fabulous','peepee','tarnished','ring','blue','half','kumala'];
 let random = Math.floor(Math.random()* words.length);
 let tungu = document.getElementById("Randomword");
 let input = document.getElementById("inputWord");
@@ -91,4 +91,4 @@ function handleKeyDown(key) {
 
 window.addEventListener("keydown", ({ key }) => {
     handleKeyDown(key);
-});
+});w
