@@ -1,147 +1,120 @@
-.big{
-    text-align: center;
-    
-}
-#Title{
-  
-    font-family: cursive;
-    font-style: italic;
-    
-}
-#Typein{
-    
-    font-size: 25px;
-    padding-bottom: 5px;
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Make sure to import this font from Google Fonts */
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html > body {
-    background-color: rgb(184, 114, 125);
-}
-#Nhap>input{
-   width: 25%;
-   height: 25px;
-   border-radius: 5px;
-   border: none;
-}
-#Nhap{
-    padding-bottom: 20px;
-}
-#resetBTN {
-    height: 60px;
-    width: 100%;
-    margin-right: 14px;
-   
-}
-#resetBTN > button{
-    width: auto;
-    height: 45%;
-    font-size: large;
-    border: 1px solid black;
-    margin-right: 20px;
-    border-radius: 6px;
-}   
-#resetBTN > button:hover{
-    background-color: brown;
-}
-#resetBTN>button:active{
-    background-color: rgb(26, 127, 26);
-} 
-.timeandpoint{
-    margin: 1rem;
-    padding: 2rem 2rem;
+.big {
     text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
 }
-#scrore{
-    font-size: 25px;
-    display: inline-block;
-    padding: 1rem 1rem;
-    vertical-align: middle;
-    margin-right: 300px;
+
+/* Typography */
+h1 {
+    font-size: 2em;
+    color: #4CAF50;
 }
-#time {
-    display: inline-block;
-    padding: 1rem 1rem;
-    vertical-align: middle;
-    font-size: larger;
-    font-family:sans-serif;
+
+#Typein {
+    font-size: 1.2em;
+    margin-bottom: 15px;
 }
-#Randomword{
-    font-size: xx-large;
-    height: 50%;
-    width: 7%;
-    margin-left: 46%;
-    padding-bottom: 10px;
-}
-#Randomword:hover{
-    text-transform: uppercase;
-    font-weight: 500;
-    color: blue;
-}
-.keyboard_container{
+
+/* Score and Timer */
+#timeandpoint {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(184, 114, 125);
-    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#score, #time {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Random */
+#Randomword{
+    margin-bottom: 15px;
+}
+
+/* Input Field */
+#Nhap{
+    margin-bottom: 15px;
+}
+
+#Nhap > input {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Buttons */
+#resetBTN button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#resetBTN button:hover {
+    background-color: #66BB6A;
+}
+
+/* Keyboard Styles */
+.keyboard_container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.keyboard button {
+    width: 60px;
+    height: 40px;
     margin: 5px;
-}
-.keyboard{
-    background-color:rgb(184, 114, 125);
-    height: 120px;
-    font-size: xx-large;
-}
-.row1 > button{
-    width: 100px;
-    height: 30px;
-    font-size: 20px;
-    background-color: blueviolet;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
     border-radius: 5px;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px;
-}
-.row1 > button:hover{
-    text-transform: uppercase;
-    color: blue;
-    background-color: rgb(81, 197, 81);
-}
-.row1 > button:active{
-    background-color: brown;
-}
-.row2 > button{
-    width: 100px;
-    height: 30px;
-    font-size: 20px;
-    background-color: blueviolet;
-    border-radius: 5px;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px;
-
-
-}
-.row2 > button:hover{
-    text-transform: uppercase;
-    color: blue;
-    background-color: rgb(81, 197, 81);
-}
-.row2 > button:active{
-    background-color: brown;
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform 0.1s ease;
 }
 
-.row3 > button{
-    width: 100px;
-    height: 30px;
-    font-size: 20px;
-    background-color: blueviolet;
-    border-radius: 5px;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px;
-}
-.row3 > button:hover{
-    text-transform: uppercase;
-    color: blue;
-    background-color: rgb(81, 197, 81);
-}
-.row3 > button:active{
-    background-color: brown;
+.keyboard button:hover {
+    background-color: #66BB6A;
 }
 
-.isClicked {
-    background-color: yellow !important;
+.keyboard button:active {
+    transform: scale(0.95);
+}
+
+/* Responsive Design  */
+@media (max-width: 768px) {
+    .big {
+        padding: 10px;
+    }
+
+    #resetBTN button, #Nhap > input {
+        width: 100%;
+    }
+
+    .keyboard button {
+        width: 48px;
+        height: 35px;
+    }
 }
